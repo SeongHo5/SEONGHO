@@ -1,0 +1,21 @@
+.main-logo {
+    display: inline-block;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+    width: 200px; height: 130px;
+}
+
+#menu-main, .menu-wrap {
+    display: inline-block;
+}
+
+ul {
+    height: 120px;
+}
+
+li {
+    position: relative;
+    display: inline-block;
+    font-size: 16pt;
+}
