@@ -1,21 +1,78 @@
-.main-logo {
-    display: inline-block;
-    align-items: center;
-    position: relative;
-    margin: 0 auto;
-    width: 200px; height: 130px;
-}
-
 #menu-main, .menu-wrap {
     display: inline-block;
 }
 
-ul {
-    height: 120px;
+header > div > nav > ul {
+    display: inherit;
+    margin: 150px 0;
+    margin: 0 150px 0 150px;
 }
 
-li {
+header > div > nav > ul > li {
     position: relative;
-    display: inline-block;
+    display: inherit;
     font-size: 16pt;
+    align-items: center;
+}
+
+div > nav > ul > li::after {
+    content: " | ";
+    float: right;
+    margin-left: 7px;
+    display: block;
+    
+}
+  
+div > nav > ul > li:last-child::after {
+    content: "";
+}
+
+footer > div > p, footer > div > address, footer > div > ul, footer > div > ul > li {
+    display: inline-block;
+    position: relative;
+}
+
+.icon-login {
+      background-image: url(../images/icon-login.png);
+      background-color: transparent;
+      display: inline-block;
+      overflow: hidden;
+      width: 38px;
+      height: 38px;
+  }
+
+.icon-search {
+    background-image: url(../images/icon-search.png);
+    background-color: transparent;
+    display: inline-block;
+    overflow: hidden;
+    width: 38px;
+    height: 38px;
+}
+
+.icon-scnu {
+    background-image: url(../images/icon-scnu.png);
+    background-color: transparent;
+    display: inline-block;
+    overflow: hidden;
+    width: 46px;
+    height: 46px;
+}
+
+.icon-facebook {
+    background-image: url(../images/icon-facebook.png);
+    background-color: transparent;
+    display: inline-block;
+    overflow: hidden;
+    width: 43px;
+    height: 43px;
+}
+
+.icon-insta {
+    background-image: url(../images/icon-insta.png);
+    background-color: transparent;
+    display: inline-block;
+    overflow: hidden;
+    width: 43px;
+    height: 43px;
 }
