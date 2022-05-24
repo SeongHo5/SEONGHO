@@ -1,91 +1,79 @@
-#menu-main, .menu-wrap {
-    display: inline-block;
+/* Header CSS */
+.header-main {
+    display: flex; position: fixed;
+    top: 0; left: 0; right: 0; z-index: 50; height: 120px;
+    background-color: #fff;
+    box-shadow: 0 1px 20px 0px rgb(0 0 0 / 30%);
+    justify-content: space-between;
 }
 
-header > div > nav > ul {
-    display: inherit;
-    margin: 150px 0;
-    margin: 0 150px 0 150px;
-}
+#menu-main, .menu-wrap { display: inline-block; }
+
+header > h1 > a, header > h1 > a > img { display: block; width: 200px; height: 100px; }
+
+header > h1 { display: flex; width: 17%; align-items: center; justify-content: center; }
+
+header > div > nav > ul { display: inherit; margin: 0 200px; border-right: 1px solid #ebebeb; }
 
 header > div > nav > ul > li {
-    position: relative;
-    display: inherit;
-    font-size: 16pt;
-    align-items: center;
+    position: relative; display: inherit;
+    font-size: 14pt; align-items: center;
+    border-left: 1px solid #ebebeb;
 }
 
-header > div > nav > ul > li::after {
-    content: " | ";
-    float: right;
-    margin-left: 7px;
-    display: block;
-    
-}
-  
-header > div > nav > ul > li:last-child::after {
-    content: " ";
+header > div > nav > ul > li > a {
+    position: relative; display: flex;
+    height: 85px; width: 170px;
+    padding-top: 30px; margin-right: -4px;
+    background-color: #fff; justify-content: center;
+    align-items: center; font-weight: 500; transition: .5s;
 }
 
-aside {
-    float: right;
+/* Aside CSS */
+aside { float: right; margin-top: 250px; margin-right: 50px; }
+
+.topic-wrap > ul { display: table; }
+
+.topic-wrap > ul > li { display: table; }
+
+/* Footer CSS */
+.footer-main { padding-top: 50px; position: absolute; bottom: 0; display: block; }
+
+.footer-link { position: relative; right: 0; }
+
+footer > div > p, footer > div > address, footer > div > ul, footer > div > ul > li { display: inline-block; position: relative; }
+footer > div > p > img { display: block; width: 200px; height: 100px; }
+
+/* Icon CSS */
+.header-main .menu-wrap [class^=icon-] { position: absolute; top: 33px; left: 50%;width: 27px; height: 27px; background-size: contain; transition: .5s; transform: translateX(-50%); }
+
+.icon-intro { background-image: url(../images/icon-intro.png); background-color: transparent; overflow: hidden; }
+
+.icon-sea { background-image: url(../images/icon-sea.png); background-color: transparent; overflow: hidden; }
+
+.icon-river {background-image: url(../images/icon-river.png); background-color: transparent; overflow: hidden; }
+
+.icon-board { background-image: url(../images/icon-board.png); background-color: transparent; overflow: hidden; }
+
+.icon-fish { background-image: url(../images/icon-fish.png); background-color: transparent; overflow: hidden; }
+
+.icon-news {background-image: url(../images/icon-news.png); background-color: transparent; overflow: hidden;}
+
+.icon-login {background-image: url(../images/icon-login.png); background-color: transparent; overflow: hidden; width: 38px; height: 38px;}
+
+.icon-scnu {background-image: url(../images/icon-scnu.png); background-color: transparent; display: inline-block; overflow: hidden; width: 46px; height: 46px;}
+
+.icon-facebook {background-image: url(../images/icon-facebook.png);background-color: transparent;display: inline-block;overflow: hidden;width: 43px;height: 43px; }
+
+.icon-insta {background-image: url(../images/icon-insta.png); background-color: transparent; display: inline-block; overflow: hidden; width: 43px; height: 43px; }
+
+/* Font */
+
+body {
+    font-family: 'Noto Sans','Noto Sans KR','Apple SD Gothic Neo','맑은 고딕',sans-serif;
+    font-size: 16px;
+    color: #000;
 }
 
-.topic-wrap > ul {
-    display: table;
-}
-
-.topic-wrap > ul > li {
-    display: table;
-}
-
-
-footer > div > p, footer > div > address, footer > div > ul, footer > div > ul > li {
-    display: inline-block;
-    position: relative;
-}
-
-.icon-login {
-      background-image: url(../images/icon-login.png);
-      background-color: transparent;
-      display: inline-block;
-      overflow: hidden;
-      width: 38px;
-      height: 38px;
-  }
-
-.icon-search {
-    background-image: url(../images/icon-search.png);
-    background-color: transparent;
-    display: inline-block;
-    overflow: hidden;
-    width: 38px;
-    height: 38px;
-}
-
-.icon-scnu {
-    background-image: url(../images/icon-scnu.png);
-    background-color: transparent;
-    display: inline-block;
-    overflow: hidden;
-    width: 46px;
-    height: 46px;
-}
-
-.icon-facebook {
-    background-image: url(../images/icon-facebook.png);
-    background-color: transparent;
-    display: inline-block;
-    overflow: hidden;
-    width: 43px;
-    height: 43px;
-}
-
-.icon-insta {
-    background-image: url(../images/icon-insta.png);
-    background-color: transparent;
-    display: inline-block;
-    overflow: hidden;
-    width: 43px;
-    height: 43px;
-}
+/* HyperLink */
+a:link {color: black; text-decoration: none;} a:visited {color: black; text-decoration: none;}
