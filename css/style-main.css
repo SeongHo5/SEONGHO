@@ -15,7 +15,7 @@ header > div > nav > ul > li {
     align-items: center;
 }
 
-div > nav > ul > li::after {
+header > div > nav > ul > li::after {
     content: " | ";
     float: right;
     margin-left: 7px;
@@ -23,9 +23,22 @@ div > nav > ul > li::after {
     
 }
   
-div > nav > ul > li:last-child::after {
-    content: "";
+header > div > nav > ul > li:last-child::after {
+    content: " ";
 }
+
+aside {
+    float: right;
+}
+
+.topic-wrap > ul {
+    display: table;
+}
+
+.topic-wrap > ul > li {
+    display: table;
+}
+
 
 footer > div > p, footer > div > address, footer > div > ul, footer > div > ul > li {
     display: inline-block;
