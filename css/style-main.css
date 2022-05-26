@@ -9,12 +9,18 @@
 
 #menu-main, .menu-wrap { display: inline-block; }
 
+.menu-main { 
+    display: flex;
+    align-items: center; margin: 0;
+    width: 100%; padding-right: 15px; padding-left: 15px;
+}
+
 header > h1 > a, header > h1 > a > img { display: block; width: 200px; height: 100px; }
 
 header > h1 { display: flex; width: 17%; align-items: center; justify-content: center; }
 
-header > div > nav > ul { display: inherit; margin: 0 200px; border-right: 1px solid #ebebeb; }
-
+header > div > nav > ul { display: inherit; border-right: 1px solid #ebebeb; }
+ 
 header > div > nav > ul > li {
     position: relative; display: inherit;
     font-size: 14pt; align-items: center;
