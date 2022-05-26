@@ -1,6 +1,6 @@
 /* Header CSS */
 .header-main {
-    display: flex; position: fixed;
+    display: flex; position: absolute;
     top: 0; left: 0; right: 0; z-index: 50; height: 120px;
     background-color: #fff;
     box-shadow: 0 1px 20px 0px rgb(0 0 0 / 30%);
@@ -35,12 +35,28 @@ header > div > nav > ul > li > a {
     align-items: center; font-weight: 500; transition: .5s;
 }
 
+.center_wrap { padding-top: 140px; }
+
 /* Aside CSS */
-aside { float: right; margin-top: 250px; margin-right: 50px; }
+
+aside { display: flex; justify-content: flex-end; margin-right: 50px;}
+
+.topic-wrap { padding-bottom: 10px; }
 
 .topic-wrap > ul { display: table; }
 
-.topic-wrap > ul > li { display: table; }
+.topic-wrap > ul > li {
+    display: table; width: 100%; height: 85px; padding-bottom: 10px;
+    border-top: 1px solid #efeff0; border-color: #efeff0;
+}
+
+.topic-body { display: inline-block; }
+
+.topic-text { vertical-align: middle; padding-right: 16px; }
+
+.topic-img {position: relative; background-size: 95px;}
+
+.topic-img > img { background: #fff; vertical-align: top;}
 
 /* Footer CSS */
 .footer-main { padding-top: 50px; position: absolute; bottom: 0; display: block; }
@@ -48,7 +64,7 @@ aside { float: right; margin-top: 250px; margin-right: 50px; }
 .footer-link { position: relative; right: 0; }
 
 footer > div > p, footer > div > address, footer > div > ul, footer > div > ul > li { display: inline-block; position: relative; }
-footer > div > p > img { display: block; width: 200px; height: 100px; }
+footer > div > p > img { display: block; width: 150px; height: 80px; }
 
 /* Icon CSS */
 .header-main .menu-wrap [class^=icon-] { position: absolute; top: 33px; left: 50%;width: 27px; height: 27px; background-size: contain; transition: .5s; transform: translateX(-50%); }
