@@ -1,91 +1,73 @@
 /* Header */
 .header-main {
     display: flex; position: absolute;
-    top: 0; left: 0; right: 0; height: 120px;
+    top: 0; left: 0; right: 0; height: 125px; width: 100%;
     background-color: #fff; box-shadow: 0 1px 20px 0px rgb(0 0 0 / 30%);
     justify-content: space-between; 
 }
-
-#menu-main, .menu-wrap { display: inline-block; }
-
 .menu-main { 
-    display: flex;
-    align-items: center; margin: 0;
-    width: 100%; padding-right: 15px; padding-left: 15px;
+    display: flex; width: 100%; padding-right: 15px; padding-left: 15px;
+    align-items: center; margin: 0; justify-content: space-between;
 }
-
 header > h1 > a, header > h1 > a > img { display: block; width: 200px; height: 100px; }
-
 header > h1 { display: flex; width: 17%; align-items: center; justify-content: center; }
-
-header > div > nav > ul { display: inherit; border-right: 1px solid #ebebeb; }
- 
-header > div > nav > ul > li {
-    position: relative; display: inherit;
+.menu-main > ul { display: inline-flex; border-right: 1px solid #ebebeb; }
+.menu-main > ul > li {
+    position: relative; display: inline;
     font-size: 14pt; align-items: center;
     border-left: 1px solid #ebebeb;
 }
-
-header > div > nav > ul > li > a {
+.menu-main > ul > li > a {
     position: relative; display: flex;
     height: 85px; width: 170px;
     padding-top: 30px; margin-right: -4px;
     background-color: #fff; justify-content: center;
     align-items: center; font-weight: 500; transition: .5s;
 }
+.menu-left { width: fit-content; margin-left: 5%; } .menu-right { width: fit-content; margin-right: 5%; }
 
-.center_wrap { padding-top: 140px; }
+/* Container */
+.container { width: 100%; display: flex; justify-content: space-between; margin-top: 150px; }
+
+/* Section */
+.container_left { display: inline; padding: 2% 0 50px 15%; width: fit-content; } .section_wrap { display: inline-block; padding-right: 200px; width: fit-content; }
+.main_content { display: flex; } .content_wrap { display: inline; } .content_wrap { margin: 5px 20px 0 20px; } .content_img { width: 300px; height: 350px; }
 
 /* Aside */
-
-aside { display: flex; justify-content: flex-end; margin-right: 50px;}
-
-.topic-wrap { padding-bottom: 10px; }
-
-.topic-wrap > ul { display: table; }
-
+.aside-main { position: relative; float: right; margin-right: 5%; margin-top: 5%; width: 16%; }
+.topic-wrap { padding-bottom: 10px; } .topic-wrap > ul { display: table; }
 .topic-wrap > ul > li {
     display: table; width: 100%; height: 85px; padding-bottom: 10px;
     border-top: 1px solid #efeff0; border-color: #efeff0;
 }
-
 .topic-body { display: inline-block; } .topic-text { vertical-align: middle; padding-right: 16px; }
-
-.topic-img { position: relative; background-size: 95px; } .topic-img > img { background: #fff; vertical-align: top;}
+.topic-img { position: relative; background-size: 95px; } 
+.topic-img > img { 
+    float: right; position: relative; overflow: hidden;
+    width: 132px; height: 90px; margin: 3px 0 0 30px;
+    border-radius: 3px; background-color: #f5f5f5; text-align: center;
+}
 
 /* Footer */
 footer { 
-    width: 100%; bottom: 0; position: absolute; padding-top: 50px; 
+    width: 100%; bottom: 0; position: relative; padding-top: 50px; 
     background-color: #fff; box-shadow: 20px 1px 0px 0px rgb(0 0 0 / 30%); 
 } 
-
 .main-footer { width: inherit; display: flex; justify-content: space-between; } .footer-logo { display: inline-block; } .footer-logo > img { width: 150px; height: 80px; }
-
 .footer-link { display: inline; position: relative; align-items: center; } .footer-link > li { display: inline-block; position: relative; margin: 1px; }
-
 .footer-left { width: 20%; left: 0; display: inline; } .footer-middle { width: 30%; text-align: center; padding-top: 2%; font-size: 10pt; } .footer-right { width: 20%; right: 0; display: flex; justify-content: space-evenly; align-items: center;}
 
 /* Icon */
-.header-main .menu-wrap [class^=icon-] { position: absolute; top: 33px; left: 50%;width: 27px; height: 27px; background-size: contain; transition: .5s; transform: translateX(-50%); }
-
+.header-main [class^=icon-] { position: absolute; top: 33px; left: 50%; width: 27px; height: 27px; background-size: contain; transition: .5s; transform: translateX(-50%); }
 .icon-intro { background-image: url(../images/icon-intro.png); background-color: transparent; overflow: hidden; }
-
 .icon-sea { background-image: url(../images/icon-sea.png); background-color: transparent; overflow: hidden; }
-
 .icon-river {background-image: url(../images/icon-river.png); background-color: transparent; overflow: hidden; }
-
 .icon-board { background-image: url(../images/icon-board.png); background-color: transparent; overflow: hidden; }
-
 .icon-fish { background-image: url(../images/icon-fish.png); background-color: transparent; overflow: hidden; }
-
 .icon-news {background-image: url(../images/icon-news.png); background-color: transparent; overflow: hidden;}
-
 .icon-login {background-image: url(../images/icon-login.png); background-color: transparent; overflow: hidden; width: 38px; height: 38px;}
-
 .icon-scnu {background-image: url(../images/icon-scnu.png); background-color: transparent; display: inline-block; overflow: hidden; width: 46px; height: 46px;}
-
 .icon-facebook {background-image: url(../images/icon-facebook.png);background-color: transparent;display: inline-block;overflow: hidden;width: 43px;height: 43px; }
-
 .icon-insta {background-image: url(../images/icon-insta.png); background-color: transparent; display: inline-block; overflow: hidden; width: 43px; height: 43px; }
 
 /* Font */
@@ -95,8 +77,13 @@ body {
     font-size: 16px;
     color: #000;
 }
+.topic-highlight { color: #4978f4; font-style: normal; } strong { font-weight: bold; font-size: 16pt; }
 
-/* HyperLink */
-a:link {color: black; text-decoration: none;} a:visited {color: black; text-decoration: none;}
+/* Etc */
+html, body { margin: 0; padding: 0; } a:link {color: black; text-decoration: none;} a:visited {color: black; text-decoration: none;}
 
-html, body { margin: 0; padding: 0; }
+
+/* Error Page */
+.error_container { position: absolute; width: 100%; height: 100%; align-items: center; text-align: center; font-family: "Hancom Gothic", "Malgun Gothic"; font-size: 20pt; } #error_img { width: 400px; height: 400px;  margin-top: 15%; }
+.error_container > strong { display:block; font-size: 40pt; font-weight: bold; margin-bottom: 15px;} .error_container > a { font-weight: bold; }
+.icon-return {background-image: url(../images/icon-return.png); position: absolute; left: 50%; width: 40px; height: 40px; background-size: contain; transition: .5s; transform: translateX(-50%); }
