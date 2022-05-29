@@ -1,10 +1,9 @@
-/* Header CSS */
+/* Header */
 .header-main {
     display: flex; position: absolute;
-    top: 0; left: 0; right: 0; z-index: 50; height: 120px;
-    background-color: #fff;
-    box-shadow: 0 1px 20px 0px rgb(0 0 0 / 30%);
-    justify-content: space-between;
+    top: 0; left: 0; right: 0; height: 120px;
+    background-color: #fff; box-shadow: 0 1px 20px 0px rgb(0 0 0 / 30%);
+    justify-content: space-between; 
 }
 
 #menu-main, .menu-wrap { display: inline-block; }
@@ -37,7 +36,7 @@ header > div > nav > ul > li > a {
 
 .center_wrap { padding-top: 140px; }
 
-/* Aside CSS */
+/* Aside */
 
 aside { display: flex; justify-content: flex-end; margin-right: 50px;}
 
@@ -50,23 +49,23 @@ aside { display: flex; justify-content: flex-end; margin-right: 50px;}
     border-top: 1px solid #efeff0; border-color: #efeff0;
 }
 
-.topic-body { display: inline-block; }
+.topic-body { display: inline-block; } .topic-text { vertical-align: middle; padding-right: 16px; }
 
-.topic-text { vertical-align: middle; padding-right: 16px; }
+.topic-img { position: relative; background-size: 95px; } .topic-img > img { background: #fff; vertical-align: top;}
 
-.topic-img {position: relative; background-size: 95px;}
+/* Footer */
+footer { 
+    width: 100%; bottom: 0; position: absolute; padding-top: 50px; 
+    background-color: #fff; box-shadow: 20px 1px 0px 0px rgb(0 0 0 / 30%); 
+} 
 
-.topic-img > img { background: #fff; vertical-align: top;}
+.main-footer { width: inherit; display: flex; justify-content: space-between; } .footer-logo { display: inline-block; } .footer-logo > img { width: 150px; height: 80px; }
 
-/* Footer CSS */
-.footer-main { padding-top: 50px; position: absolute; bottom: 0; display: block; }
+.footer-link { display: inline; position: relative; align-items: center; } .footer-link > li { display: inline-block; position: relative; margin: 1px; }
 
-.footer-link { position: relative; right: 0; }
+.footer-left { width: 20%; left: 0; display: inline; } .footer-middle { width: 30%; text-align: center; padding-top: 2%; font-size: 10pt; } .footer-right { width: 20%; right: 0; display: flex; justify-content: space-evenly; align-items: center;}
 
-footer > div > p, footer > div > address, footer > div > ul, footer > div > ul > li { display: inline-block; position: relative; }
-footer > div > p > img { display: block; width: 150px; height: 80px; }
-
-/* Icon CSS */
+/* Icon */
 .header-main .menu-wrap [class^=icon-] { position: absolute; top: 33px; left: 50%;width: 27px; height: 27px; background-size: contain; transition: .5s; transform: translateX(-50%); }
 
 .icon-intro { background-image: url(../images/icon-intro.png); background-color: transparent; overflow: hidden; }
@@ -99,3 +98,5 @@ body {
 
 /* HyperLink */
 a:link {color: black; text-decoration: none;} a:visited {color: black; text-decoration: none;}
+
+html, body { margin: 0; padding: 0; }
