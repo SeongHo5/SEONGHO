@@ -1,67 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>"사이트 이름" 로그인</title>
+        <title>물고기 도감</title>
         <link rel="shortcut icon" href="./images/favicon.png">
         <link rel="stylesheet" href="./css/style-login.css">
+        <link rel="stylesheet" href="./css/style-main.css">
         
     </head>
 
     <body>
-        <div class="login-header">
-            <div class="login-header-main">
-                <a href="./main.html" class="logo"><img src="./images/logo.png" alt="로고">
-                </a>
-            </div>
-        </div>
-
-        <div class="login-form">
-            <div class="login-form-main">
-                <h1>로그인</h1>
-            </div>
-
-            <div class="id_pw">
-                <div class="input_row" id="id_line">
-                    <div class="icon_cell" id="id_cell">
-                        <span class="icon_id">
-                            <span class="blind">아이디</span>
-                        </span>
-                    </div>
-                    <input type="text" id="id" name="id" placeholder="아이디" title="아이디"
-                           class="input_text" maxlength="41"
-                           value="">
-                </div>
-                <div class="input_row" id="pw_line">
-                    <div class="icon_cell" id="pw_cell">
-                        <span class="icon_pw">
-                            <span class="blind">비밀번호</span>
-                        </span>
-                    </div>
-                    <input type="password" id="pw" name="pw" placeholder="비밀번호" title="비밀번호"
-                           class="input_text" maxlength="16">
+        <div class="login_wrap">
+            <div class="login-header">
+                <div class="login-header-main">
+                    <a href="./main.html" class="logo"><img class="login_logo" src="./images/logo.png" alt="로고">
+                    </a>
                 </div>
             </div>
-            <ul class="find-idpw">
-                <li class="find-id">
-                    <a target="_blank" href="" class="find-text">아이디 찾기</a>
-                </li>
-                <li class="find-pw">
-                    <a target="_blank" href="" class="find-text">비밀번호 찾기</a>
-                </li>
-                <li class="register">
-                    <a target="_blank" href="" class="find-text">회원가입</a>
-                </li>
-            </ul>
-
-            <div class="btn-login">
-                <button type="submit" class="btn_login" id="login">
-                    <span class="btn_text">로그인</span>
-                </button>
+    
+            <div class="login-form">
+                <div class="login-form-main">
+                    <h1>로그인</h1>
+                </div>
+    
+                <div class="id_pw">
+                    <div class="input_row" id="id_line">
+                        <input type="text" id="id" name="id" placeholder="아이디" title="아이디" class="input_text" maxlength="41" value="">
+                    </div>
+                    <div class="input_row" id="pw_line">
+                        <input type="password" id="pw" name="pw" placeholder="비밀번호" title="비밀번호" class="input_text" maxlength="16">
+                    </div>
+                </div>
+                <ul class="find-idpw">
+                    <li class="find-id">
+                        <a target="_blank" href="./error.html" class="find-text">아이디 찾기</a>
+                    </li>
+                    <li class="find-pw">
+                        <a target="_blank" href="./error.html" class="find-text">비밀번호 찾기</a>
+                    </li>
+                    <li class="register">
+                        <a target="_blank" href="./error.html" class="find-text">회원가입</a>
+                    </li>
+                </ul>
+    
+                <div class="btn-login">
+                    <button type="submit" class="btn_login" id="login">
+                        <span class="btn_text">로그인</span>
+                    </button>
+                </div>
             </div>
         </div>
-
         
-
         <footer>
             <div class="login-footer">
                 <address>57922 전라남도 순천시 중앙로 255(석현동) 순천대학교 공과대학 3호관</address>

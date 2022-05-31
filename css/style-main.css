@@ -32,7 +32,7 @@ header > h1 { display: flex; width: 17%; align-items: center; justify-content: c
 
 
 /* Section */
-.container_left { display: inline; padding: 2% 0 50px 15%; width: fit-content; } .section_wrap { display: inline-block; padding-right: 200px; max-width: 1200px; width: 100%; margin: 1.2% auto; }
+.container_left { display: inline; padding: 2% 3% 50px 12%; width: fit-content; } .section_wrap { display: inline-block; padding-right: 200px; max-width: 1200px; width: 100%; margin: 1.2% auto; }
 .main_content { display: flex; font-size: 0; margin: 2% auto; } .content_list { display: inline-block; width: 33.3%; vertical-align: top; } .content_img { width: 330px; height: 280px; }
 .content_link { display: block; width: auto; text-decoration: none; margin: 5px; } .content_top { position: relative; overflow: hidden; }
 .content_text { position: absolute; top: 150%; left: 30px; z-index: 2; color: #fff; font-size: 26px; transition: all .35s; } .content_bottom h3 { font-size: 14px; text-align: center; padding: 20px; color: #666; }
@@ -42,7 +42,7 @@ header > h1 { display: flex; width: 17%; align-items: center; justify-content: c
 
 
 /* Aside */
-.aside-main { position: relative; float: right; margin-right: 16%; margin-top: 5%; width: 18%; }
+.aside-main { position: relative; margin-right: 16%; margin-top: 5%; width: 18%; }
 .topic-wrap { padding-bottom: 10px; } .topic-wrap > ul { display: table; }
 .topic-wrap > ul > li {
     display: table; width: 100%; height: 85px; padding-bottom: 10px;
@@ -55,7 +55,7 @@ header > h1 { display: flex; width: 17%; align-items: center; justify-content: c
     width: 132px; height: 90px; margin: 3px 0 0 30px;
     border-radius: 3px; background-color: #f5f5f5; text-align: center;
 }
-
+.topic-head { text-align: right; }
 
 /* Footer */
 footer { 
@@ -87,7 +87,7 @@ body {
     font-size: 16px;
     color: #000;
 }
-.topic-highlight { color: #4978f4; font-style: normal; } strong { font-weight: bold; font-size: 16pt; }
+.topic-highlight { color: #4978f4; font-style: normal; } .aside-topic strong { font-weight: bold; font-size: 14pt; letter-spacing: -0.03em; }
 
 
 /* Etc */
@@ -95,6 +95,6 @@ html, body { margin: 0; padding: 0; } a:link {color: black; text-decoration: non
 
 
 /* Error Page */
-.error_container { position: absolute; width: 100%; height: 100%; align-items: center; text-align: center; font-family: "Hancom Gothic", "Malgun Gothic"; font-size: 20pt; } #error_img { width: 400px; height: 400px;  margin-top: 15%; }
-.error_container > strong { display:block; font-size: 40pt; font-weight: bold; margin-bottom: 15px;} .error_container > a { font-weight: bold; }
+.error_container { position: absolute; width: 100%; height: 100%; align-items: center; text-align: center; font-family: "Hancom Gothic", "Malgun Gothic"; font-size: 20px; } #error_img { width: 18%; height: 32%;  margin-top: 15%; }
+.error_container > strong { display: block; font-size: 2em; font-weight: bold; margin-bottom: 15px;} .error_container > a { font-weight: bold; }
 .icon-return {background-image: url(../images/icon-return.png); position: absolute; left: 50%; width: 40px; height: 40px; background-size: contain; transition: .5s; transform: translateX(-50%); }
