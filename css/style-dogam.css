@@ -152,14 +152,7 @@ p {
   border: 1px solid #e8e8e8;
   border-radius: 7px;
 }
-.row {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-} 
+
 .book-ct .bx-detail h4 {
   font-size: 16px;
   font-weight: 500;
@@ -193,9 +186,70 @@ body, p, h1, h2, h3, span, h5, h6, ul, ol, li, dl, dt, dd, table, th, td, form, 
   border-radius: 100%;
   overflow: hidden;
 }
-.row {
+
+.roww{
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.tumb-wrp {
+  position: relative;
+  width: 100%;
+  padding-top: 63%;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.per1-1 .tumb-wrp {
+  padding-top: 100%;
+}
+.tumb-wrp>img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 100%;
+  height: auto;
+}
+.book-ct .bx-content .col-lg-6.col-12:first-of-type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.book-ct .bx-content {
+  position: relative;
+  padding: 5px;
+  margin-top: -30px;
+  text-align: center;
+}
+.book-ct {
+  position: relative;
+  margin-top: 0;
+  padding-top: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.container {
+  max-width: 1250px;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.book-view .bx-content h3 {
+  font-size: 17px;
+  text-align: center;
+}
+.text-center {
+  text-align: center!important;
 }
