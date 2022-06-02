@@ -27,7 +27,7 @@ header > h1 { display: flex; width: 17%; align-items: center; justify-content: c
 .menu-left { width: fit-content; margin-left: 5%; } .menu-right { width: fit-content; margin-right: 5%; }
 
 
-/* Container */
+/* Container */ 
 .container { width: 100%; display: flex; justify-content: space-between; margin-top: 150px; }
 
 
@@ -41,7 +41,7 @@ header > h1 { display: flex; width: 17%; align-items: center; justify-content: c
 
 
 /* Aside */
-.aside-main { position: relative; float: right; margin-right: 16%; margin-top: 5%; width: 18%; } .aside-topic { margin-bottom: 23%; }
+.aside-main { position: relative; float: right; margin-right: 13%; margin-top: 5%; width: 18%; } .aside-topic { margin-bottom: 23%; }
 .topic-wrap { padding-bottom: 15px; } .topic-wrap > ul { display: table; } .topic-head { margin-bottom: 8px; }
 .topic-wrap > ul > li { display: table; width: 100%; height: 85px; padding-bottom: 15px; border-top: 1px solid #efeff0; border-color: #efeff0; }
 .topic-body { display: inline-block; } .topic-text { vertical-align: middle; padding-right: 16px; }
@@ -88,6 +88,12 @@ body { font-family: 'Noto-SanL'; font-size: 18px; color: #000; }
 .BD_list td { padding: 10px 10px; font-weight: 900; font-size: 14px; color: #555; text-align: center; border-bottom: 1px solid #b2b7c7; }
 .BD_list td a { width: 90%; display: block; font-weight: 900; color: #444; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
 .board-footer { width: 100%; bottom: 0; position: absolute; padding-top: 50px;  background-color: #fff; box-shadow: 20px 1px 0px 0px rgb(0 0 0 / 30%); display: flex; justify-content: space-between; } 
+
+/* Intro Page */
+.intro-wrap { position: relative; font-size: 17px; line-height: 1.8; color: #555; letter-spacing: -1px; word-break: keep-all; } .img img { position: absolute; left: 0; top: 0; z-index: 2; }
+.intro-1 { position: relative; height: 360px; padding-left: 250px; } .intro-text { position: relative; height: 180px; padding: 50px; color: #fff; background: #266ed4; }
+.txt1 { font-size: 18px; } .txt2 { position: relative; margin: 30px 0 0; padding-top: 30px; font-size: 36px; line-height: 1.3; } 
+.txt2 span { font-family: 'Noto-SanM'; } .txt3 { margin-top: 40px; }
 
 /* Error Page */
 .error_container { position: absolute; width: 100%; height: 100%; align-items: center; text-align: center; font-family: "Hancom Gothic", "Malgun Gothic"; font-size: 20pt; } #error_img { width: 400px; height: 400px;  margin-top: 15%; }

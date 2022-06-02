@@ -1,2 +1,4 @@
 # SEONGHO
 WEB PROGRAMMING PROJECT
+
+글 작성 > 로그인시에만
