@@ -146,7 +146,7 @@ header > h1 { display: flex; width: 17%; align-items: center; justify-content: c
   height: 110px; width: 170px; font-style: normal;
   padding-top: 20%; margin-right: -4px;
   background-color: #fff; justify-content: center;
-  align-items: center; font-weight: 500; transition: .5s;
+  align-items: center; font-weight: 200; transition: .5s;
 }
 .menu-left { width: fit-content; margin-left: 5%; } .menu-right { width: fit-content; margin-right: 5%; }
 .header-main [class^=icon-] { position: absolute; top: 33px; left: 50%; width: 27px; height: 27px; background-size: contain; transition: .5s; transform: translateX(-50%); }
@@ -155,7 +155,7 @@ header > h1 { display: flex; width: 17%; align-items: center; justify-content: c
 .icon-river {background-image: url(../images/icon-river.png); background-color: transparent; overflow: hidden; }
 .icon-board { background-image: url(../images/icon-board.png); background-color: transparent; overflow: hidden; }
 .icon-fish { background-image: url(../images/icon-fish.png); background-color: transparent; overflow: hidden; }
-.icon-news {background-image: url(../images/icon-news.png); background-color: transparent; overflow: hidden;}
+.icon-newss {background-image: url(../images/icon-news.png); background-color: transparent; overflow: hidden;}
 .icon-login {background-image: url(../images/icon-login.png); background-color: transparent; overflow: hidden; width: 38px; height: 38px;}
 .icon-scnu {background-image: url(../images/icon-scnu.png); background-color: transparent; display: inline-block; overflow: hidden; width: 46px; height: 46px;}
 .icon-facebook {background-image: url(../images/icon-facebook.png);background-color: transparent;display: inline-block;overflow: hidden;width: 43px;height: 43px; }
