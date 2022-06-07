@@ -1,0 +1,32 @@
+.col-lg-2 {
+  -ms-flex: 0 0 16.666667%;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+.list-book {
+  margin-left: -10px;
+  margin-right: -10px;
+  clear: both;
+}
+[class^=sect] {
+  position: relative;
+  text-align: center;
+}
+.list-book .img {
+  padding: 20px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  transition: .5s;
+} 
+.tumb-wrp>img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  max-width: 100%;
+  height: auto;
+}
+.sub-book .sect {
+  padding: 0 45px;
+  margin: 45px 0 190px;
+}
