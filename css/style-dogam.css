@@ -13,7 +13,7 @@ position: relative;width: 100%;padding-right: 15px;padding-left: 15px;}
 .book-hd h2 {font-size: 22px; color: #fff;}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {margin-bottom: 0.5rem;font-weight: 500;line-height: 1.2;}
 .badge-num {padding: 7px 11px;margin: 0 10px;border-radius: 7px; background: #272727;color: #d2d2d2;font-size: 18px;font-weight: 500;}
-.font-lato {font-family: 'Lato',sans-serif;}
+.container h3 {font-family: "Noto-SanB";}
 a:link {color: black; text-decoration: none;} a:visited {color: black; text-decoration: none;}
 .icon-next-book {width: 56px;height: 56px;background: url(../images/icon_prev_book.png);transform: rotate(180deg);}
 .book-ct .bx-content .col-lg-6.col-12:first-of-type {display: flex;justify-content: center;align-items: center;}
@@ -41,11 +41,9 @@ position: relative;width: 100%;padding-right: 15px;padding-left: 15px;}
 .container {max-width: 1250px;}
 .container {width: 100%;padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;}
 .book-view .bx-content h3 {font-size: 17px;text-align: center;}
-.text-center {text-align: center!important;}
-.book-view .bx-content h4 {margin-bottom: 0;font-size: 13px;}
-.book-view .bx-content h4 {margin: 10px 0 15px;font-size: 24px;font-weight: 700;}
+.text-center {text-align: center!important;} .tumb-wrap { display: flex; justify-content: space-around; }
+.book-view .bx-content h4 {margin-bottom: 0;font-size: 13px; margin: 10px 0 15px;font-size: 24px;font-weight: 700; text-align: center; }
 .descript { text-align: left; line-height: 1.5em; } .img-fluid { width: 250px; height: 250px; }
-.bx-content img { width: 50%; height: 100%; }
 .header-main {display: flex; position: absolute;top: 0; left: 0; right: 0; height: 125px; width: 100%;background-color: #fff; box-shadow: 0 1px 20px 0px rgb(0 0 0 / 30%);justify-content: space-between; }
 .menu-main { display: flex; width: 100%; padding-right: 15px; padding-left: 15px;align-items: center; margin: 0; justify-content: space-between;}
 header > h1 > a, header > h1 > a > img { display: block; width: 200px; height: 100px; }
@@ -70,7 +68,7 @@ header > h1 { display: flex; width: 17%; align-items: center; justify-content: c
 @font-face { font-family: Noto-SanL; src: url(../fonts/NotoSansKR-Light.otf); }
 @font-face { font-family: Noto-SanR; src: url(../fonts/NotoSansKR-Regular.otf); }
 @font-face { font-family: Noto-SanM; src: url(../fonts/NotoSansKR-Medium.otf); }
-.search-book {padding: 20px 25px;}
+.search-book {padding: 20px 25px;} .font-la
 .search-book {position: relative;padding: 30px 25px 20px;}
 .bg-dark2 {background-color: #393939 !important;}
 .text-wh {color: #fff !important;}
@@ -101,11 +99,12 @@ img {  vertical-align: top;  max-width: 100%;}
 li {  list-style: none;}
 .book-hd .col-6 {  padding-right: 7px;  padding-left: 7px;}
 .book-hd a.right { text-align: right;}
-.book-ct .bx-content {  padding: 15px 50px 50px;  border: 3px solid #333;  border-radius: 0 0 10px 10px;  border-top: 0;  background: #fff;}
+.book-ct .bx-content {  padding: 15px 50px 50px;  border: 3px solid #333;  border-radius: 0 0 10px 10px;  border-top: 0;  background: #fff; } .bx-txt { font-style: "Noto-SanB"; }
 .para {  margin-bottom: 30px;  font-size: 19px;  font-weight: 300;  color: #2e2e2e;  line-height: 1.8;}
 .book-ct .bx-detail {  padding: 8px 30px 20px;  border: 1px solid #e8e8e8;  border-radius: 7px;}
-.book-view {  padding: 30px 0;}
-.book-view .bx-content .img { position: relative;  padding: 0 15px 30px; border: 1px solid #d8d8d8;  border-top: 0;  border-radius: 0 0 10px 10px;  align-items: center; justify-content: center;}
+.book-view { padding: 30px 0;}
+.book-view .bx-content .img { position: relative; height: 100%; padding: 0 15px 30px; border: 1px solid #d8d8d8;  border-top: 0;  border-radius: 0 0 10px 10px;  align-items: center; justify-content: center;}
 .book-view .bx-content h3 {  margin-bottom: 20px;  padding-left: 10px;  font-size: 25px;  font-weight: 700;}
+.bx-content img { width: 270px; height: 200px; }
 .bg-light {  background-color: #f7f7f7;}
-.book-view .bx-content { margin-bottom: 25px;  border-radius: 10px;  background: #fff; padding: 40px 35px;}
+.book-view .bx-content { margin-bottom: 25px; border-radius: 10px;  background: #fff; padding: 40px 35px;}
